@@ -1,0 +1,619 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    border-style: none;
+    list-style:none;
+    padding: 0%;
+    margin: 0%;
+    font-family: "Oswald", sans-serif;
+    
+}
+
+
+.title{
+    width: 1440px;
+    height: 463px;
+    background-image: url(backgroundph1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-emphasis: center;
+    color: #ffffff;
+    margin-top: 20px;
+}
+
+
+.navbar{
+    width: 1200px;
+    height: 49px;
+    top: 45px;
+    left: 120px;
+    display: flex;
+    gap: 40px;
+    padding: 45px;
+    text-align: center;
+}
+
+.nav-menu{
+    margin-left: 250px;
+    text-align: center;
+}
+
+.nav-menu ul{
+    display: flex;
+    gap: 80px;
+    align-content: center;
+}
+
+
+.nav-menu li a{
+    width: 35px;
+    height: 21px;
+    font-family: "Oswald", sans-serif;
+    color: #fff;
+    text-decoration: solid;
+
+}
+
+.nav-img{
+    margin-top: -10px;
+}
+
+.nav-img p {
+    color: rgb(255, 255, 255);
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    font-weight: 700    ;
+}
+
+
+.nav-img p span{
+    color: brown;
+    font-family: "Oswald", sans-serif;
+}
+
+.get-q button{
+    cursor: pointer;
+    width: 143px;
+    height: 49px;
+    border: 1px rgb(255, 255, 255) dotted;
+    gap: 10px;
+    background-color: transparent;
+    color: white;
+}
+.get-q{
+    margin-left: 250px;
+    margin-top: -15px;
+}
+
+
+
+.build{
+    font-family: oswald;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35.57px;
+    align-items: center;
+    color: #ffffff;
+}
+.up{
+    font-family: oswald;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35.57px;
+    align-items: center;
+    color: #ea6b00;
+}
+
+.home{
+    font-family: oswald;
+   font-weight: 600 ;
+   font-size: 14px; 
+   line-height: 20.75px;
+   color: #ffffff;
+}
+
+.pages{ 
+    font-family: oswald;
+    font-weight: 600;
+    font-size: 14px; 
+    line-height: 20.75px;
+    color: #ffffff;
+}
+
+.service{
+    font-family: oswald;
+    font-weight: 600 ;
+    font-size: 14px; 
+    line-height: 20.75px;
+    color: #ea6b00;
+}
+.project{
+    font-family: oswald;
+    font-weight: 600 ;
+    font-size: 14px; 
+    line-height: 20.75px;
+    color: #ffffff;
+}
+.news{
+    font-family: oswald;
+    font-weight: 600 ;
+    font-size: 14px; 
+    line-height: 20.75px;
+    color: #ffffff;
+}
+
+
+.nav-button{
+    width: 143px;
+    height: 49px;
+    left: 1057px;
+    border: 1px;
+    padding: 14px , 32px;
+    gap: 10px;
+    color: #ffffff;
+}
+h1{
+    color: #ffffff;
+}
+
+.our{
+    color: white;
+}
+
+
+.our-service {
+    text-align: center;
+    padding: 20px;
+}
+
+.text {
+    font-size: 14px;
+    color: #ea6b00;
+    font-family: oswald;
+    line-height: 20.75px;
+    font-weight: 600;
+}
+
+.heading {
+    font-family: oswald;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 80px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card1 {
+    width: 320px;
+    height: 500px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+    flex: 1;
+}
+
+.card-title {
+    font-size: 24px;
+    color: #000000;
+    margin: 0;
+}
+
+.card-description {
+    font-size: 16px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.read {
+    display: inline-block;
+    font-size: 16px;
+    color: #ea6b00;
+    cursor: pointer;
+    text-align: left;
+}
+
+
+
+h4{
+
+    /* text-align: left; */
+    padding-left: 10px;
+    color: #ea6b00;
+}
+
+.we{
+    width: 439px;
+height: 160px;
+top: 2646px;
+left: 120px;
+gap: 0px;
+opacity: 0px;
+ color: #000000;
+    font-size: 28px;
+    font-family: oswald;
+    line-height: 80px;
+    font-weight: 700;
+}
+
+
+
+.fact {
+    background-image: url(backgroundph1.jpeg);
+    background-color: rgba(34, 34, 34, 0.87);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    width: 1300px;
+    height: 299px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 250px;
+    padding: 40px;
+}
+
+.frame1 {
+    text-align: center;
+    color: #fff;
+}
+
+.frame1:first-child {
+    margin-left: 20px;
+}
+
+.frame1 h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.frame1 p {
+    margin: 0;
+    font-size: 14px;
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%;
+}
+
+.consultation {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.cons1 {
+    width: 80px;
+    height: auto;
+}
+
+.consulting {
+    font-family: Oswald, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.planing {
+    display: block;
+    font-size: 14px;
+    color: #555;
+}
+
+.right-column {
+    display: flex;
+    /* flex-direction: column; */
+    gap: 20px;
+    width: 30%;
+}
+
+.large-img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+.contactUs0{
+    position: relative;
+    margin-top: 100px;
+    background-image:url(https://www.samuelsgroup.net/hubfs/Images/Blog%20Images/5%20Types%20of%20Construction%20-%20Compressed%20Image.webp);
+    background-size: 100%;
+    width: 1440px;
+    height: 701px;
+    flex-shrink: 0;
+    color: black;
+}
+
+.imgh{
+    background: radial-gradient(50% 50% at 50% 50%, rgba(234, 107, 0, 0.67) 0%, #FF5E14 100%);
+    width: 1440px;
+    height: 701px;
+    flex-shrink: 0;
+}
+
+.contactUs0 .imgh .texts h5{
+    color: #FFF;
+    font-family: Oswald;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    padding-top: 180px;
+
+}
+
+.contactUs0 .imgh .texts h3{
+    color: #FFF;
+    font-family: Oswald;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px; 
+    text-transform: uppercase;
+    width: 600px;
+}
+
+.contactUs0 .imgh .texts p{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; 
+    width: 482px;
+}
+
+.contactUs0 .imgh .texts{
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    
+}
+
+.quote hr{ display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.quote{
+    height: auto;
+    flex-shrink: 0;
+    width: 597px;
+    background-color: antiquewhite;
+}
+
+.containerQuote{
+    font-family: Roboto;
+    position: absolute;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    margin: 0;
+    background: #fff;
+    padding: 20px;
+    border-radius: 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.containerQuote h2{
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.containerQuote .form-group {
+    margin-bottom: 15px;
+}
+
+.containerQuote label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.containerQuote input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.containerQuote textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.containerQuote button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 20px 34px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-flex;
+    gap: 10px;
+}
+
+.containerQuote button:hover {
+    background-color: #e65c00;
+}
+
+.containerQuote{
+    margin-left: 800px;
+    margin-top: -200px;
+}
+
+.footer-container {
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.footer-left,
+.footer-links,
+.footer-social,
+.footer-subscribe {
+    flex: 1;
+    margin: 0 20px;
+    color: #222;
+}
+
+.footer-left h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.footer-left p {
+    font-size: 14px;
+    color: #777;
+}
+
+.footer-links h3,
+.footer-social h3,
+.footer-subscribe h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    color: #333;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a  {
+    width: 24px;
+    height: 24px;
+    color: #FF5E14;
+}
+
+.footer-social p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #777;
+}
+
+.footer-social p img {
+    margin-right: 5px;
+}
+
+#subscribe-form {
+    display: flex;
+}
+
+#subscribe-email {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    flex: 1;
+    margin-right: 10px;
+}
+
+#subscribe-btn {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#subscribe-btn:hover {
+    background-color: #e65c00;
+}
+
+.footer-copyright {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    color: #777;
+    font-size: 14px;
+    margin: 0;
+    border-top: 1px solid #ddd;
+}
